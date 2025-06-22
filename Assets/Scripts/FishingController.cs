@@ -11,8 +11,10 @@ public class FishingController : MonoBehaviour
 
     [SerializeField] private GameObject playerBody;
     [SerializeField] private Animator _animator;
-    
+    [SerializeField] private PowerMeter _powerMeter;
+
     private FishingState _currentState;
+    private float castStrength;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,8 +36,10 @@ public class FishingController : MonoBehaviour
             case FishingState.ZONE_SELECT:
                 break;
             case FishingState.CASTING:
+                _powerMeter.gameObject.SetActive(true);
                 break;
             case FishingState.DEFAULT:
+                _powerMeter.gameObject.SetActive(false);
                 break;
         }
     }
@@ -60,11 +64,19 @@ public class FishingController : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             animState = 2;
+            SetState(FishingState.CASTING);
         }
 
         if (Input.GetMouseButtonUp(0))
         {
             animState = 1;
+            castStrength = _powerMeter.CurrentPower;
+
+            if (castStrength > 0.5f)
+            {
+                ColorCycle.TriggerNice();
+            }
+            SetState(FishingState.DEFAULT);
         }
 
         updateState = (oldState != animState);
