@@ -1,0 +1,715 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9180943336878042761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 0fde1311-9ef1-4028-9b24-90ee7945005f
+  rect:
+    serializedVersion: 2
+    x: 53692
+    y: 50428
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: 1663721108705497635}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: 'We get a lot of shady sorts here trading gear, so bring me your catches
+    and II''ll buy them off you '
+--- !u!114 &-9173730054909357463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 1dbb52e1-411d-451a-a1be-d1638a2d318b
+  rect:
+    serializedVersion: 2
+    x: 53214
+    y: 50416
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: 5413752483699448452}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: 'Once the fish is on the line, use the mouse to move the rod to the sides
+    to pull against the direction the fish is moving. '
+--- !u!114 &-7588622805926537341
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb407621a43446dac370b409a9ddc29, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: 
+  text: What's there to do?
+  children:
+  - {fileID: -2828311090414436780}
+  _uniqueId: 04612091-9c56-4f7d-bce3-2702281309a4
+--- !u!114 &-6529094597787188524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 35ad24cb-35d3-4f8e-bfc0-db29ea4ecf0d
+  rect:
+    serializedVersion: 2
+    x: 52980
+    y: 50415
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: -9173730054909357463}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: Then all you have to do is wait for mother nature to do her shit, and
+    get a fish to bite.
+--- !u!114 &-6091668189532271681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 793973e0-a10c-4953-8ccb-f20bace6948b
+  rect:
+    serializedVersion: 2
+    x: 52487
+    y: 50408
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: -3673003105031089259}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: After you decide where you want to cast at, hold down the mouse button
+    to control the power of your cast.
+--- !u!114 &-4520027911249929783
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb407621a43446dac370b409a9ddc29, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: 
+  text: Where am I?
+  children:
+  - {fileID: 5493958213995406110}
+  _uniqueId: 3192b1b8-1301-4fcc-a55b-c25ac2136703
+--- !u!114 &-3693094191965585997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 2aed8ec0-1c8f-42c5-82f1-146079ba1022
+  rect:
+    serializedVersion: 2
+    x: 49974
+    y: 50276
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: 3175258746819537463}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 0}
+  audio: {fileID: 0}
+  dialogue: Early morning. Location unknown.
+--- !u!114 &-3673003105031089259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 211c02bb-5948-4b28-a3a2-cb8ef352a3c0
+  rect:
+    serializedVersion: 2
+    x: 52728
+    y: 50403
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: -6529094597787188524}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: Let go of the mouse button when the power meter is in the sweet spot
+    to cast your line.
+--- !u!114 &-2828311090414436780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: d7286b03-7ecf-432b-98e0-79d51b5ff6c9
+  rect:
+    serializedVersion: 2
+    x: 51270
+    y: 50305
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: 1409993165504675131}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: This fucking guy, man. What did I do to deserve this?
+--- !u!114 &-979614703542895064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 6f32804e-ab0b-454c-964f-436a1bc83dbf
+  rect:
+    serializedVersion: 2
+    x: 52217
+    y: 50406
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: -6091668189532271681}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 0}
+  audio: {fileID: 0}
+  dialogue: Fishing Rod GET!
+--- !u!114 &-828885807683250532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb407621a43446dac370b409a9ddc29, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: 
+  text: Who are YOU
+  children:
+  - {fileID: 6330670266204538934}
+  _uniqueId: 1a7a2b72-248d-4f0a-b2a8-b7c211a914d5
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35851dfd8754a74b333944d50d05bbd, type: 3}
+  m_Name: IntroDialog
+  m_EditorClassIdentifier: 
+  _nodes:
+  - {fileID: 6702176134857078460}
+  - {fileID: 3175258746819537463}
+  - {fileID: 4927169873437897404}
+  - {fileID: 7242808841267491063}
+  - {fileID: 6330670266204538934}
+  - {fileID: 1619176322380253167}
+  - {fileID: 5493958213995406110}
+  - {fileID: -2828311090414436780}
+  - {fileID: 1409993165504675131}
+  - {fileID: 2289519076624559123}
+  - {fileID: -3693094191965585997}
+  - {fileID: 5643057119293824691}
+  - {fileID: -979614703542895064}
+  - {fileID: -6091668189532271681}
+  - {fileID: -3673003105031089259}
+  - {fileID: -6529094597787188524}
+  - {fileID: -9173730054909357463}
+  - {fileID: 5413752483699448452}
+  - {fileID: -9180943336878042761}
+  - {fileID: 1663721108705497635}
+  root: {fileID: 6702176134857078460}
+  scrollPosition: {x: 53246, y: 50052}
+--- !u!114 &1409993165504675131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 9582cbf2-c8aa-4be7-b0c8-39ed28a9be75
+  rect:
+    serializedVersion: 2
+    x: 51506
+    y: 50306
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: 2289519076624559123}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: Do you know how to fish, numbnuts?
+--- !u!114 &1619176322380253167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ee683620015454489ed039e9cb805da, type: 3}
+  m_Name: Choice Hub
+  m_EditorClassIdentifier: 
+  _uniqueId: e3154756-4f37-4f55-bfa0-6a7046829d2a
+  rect:
+    serializedVersion: 2
+    x: 50799
+    y: 50072
+    width: 200
+    height: 118
+  nodeTitle: 
+  children: []
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices:
+  - {fileID: 7508418100978985341}
+  - {fileID: 3171847945672650236}
+  - {fileID: 7736720858821661458}
+--- !u!114 &1663721108705497635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67818104cf34e2693b49316191c2be0, type: 3}
+  m_Name: Play Graph
+  m_EditorClassIdentifier: 
+  _uniqueId: a430f0af-8819-412e-8474-70ace300ecb9
+  rect:
+    serializedVersion: 2
+    x: 54038
+    y: 50510
+    width: 200
+    height: 58
+  nodeTitle: 
+  children: []
+  conditions: []
+  enterActions: []
+  exitActions: []
+  dialogueGraph: {fileID: 11400000, guid: 78ba9767fb5557f40aa1df80851af7f6, type: 2}
+--- !u!114 &2289519076624559123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 16150b18-9a37-40af-ae67-f7943859f3f1
+  rect:
+    serializedVersion: 2
+    x: 51743
+    y: 50391
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: 5643057119293824691}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: Look,it's easy.  Go to the fishing spot, and click the area you want
+    to fish in.
+--- !u!114 &3171847945672650236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb407621a43446dac370b409a9ddc29, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: 
+  text: Where am I?
+  children:
+  - {fileID: 5493958213995406110}
+  _uniqueId: 9da1de26-22af-4b6a-9797-dca049af18f4
+--- !u!114 &3175258746819537463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 43f23340-2cd9-451d-b44a-209297b1b3d1
+  rect:
+    serializedVersion: 2
+    x: 50250
+    y: 50276
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: 4927169873437897404}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: Hey, shithead. Wake the fuck up.
+--- !u!114 &4927169873437897404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 2c7832bc-f5de-41e7-8c46-3fbe605916d7
+  rect:
+    serializedVersion: 2
+    x: 50473
+    y: 50266
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: 7242808841267491063}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: C'mon, rise and shine, idiot.
+--- !u!114 &5413752483699448452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 46ad0ba3-3f1c-4514-a3fc-89870d5daff7
+  rect:
+    serializedVersion: 2
+    x: 53444
+    y: 50429
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: -9180943336878042761}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: Do all that and even a dispshit like you can be a fisherman.
+--- !u!114 &5493958213995406110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: d7e66439-3076-4eaa-8750-7113a608805c
+  rect:
+    serializedVersion: 2
+    x: 51194
+    y: 49996
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: 7242808841267491063}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: YOU IN MY SWAMP, BITCH. THE FUCK YOU MEAN "Where am I?"?
+--- !u!114 &5643057119293824691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 4c3b888c-c900-483d-ad5c-ec0185d1d5cd
+  rect:
+    serializedVersion: 2
+    x: 51977
+    y: 50403
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: -979614703542895064}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: The spots you can reach are limited by the gear you have equipped. Here's
+    a shitty rod to get you started.
+--- !u!114 &6330670266204538934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: dedbd498-a1ee-4ac1-8c48-bf30e0798ea2
+  rect:
+    serializedVersion: 2
+    x: 50999
+    y: 50277
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: 7242808841267491063}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: Who the fuck do you think you are asking questions like that? I don't
+    owe you or the so-called governmint shit.
+--- !u!114 &6702176134857078460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8d0566afe4d5fa9596c80df966df6, type: 3}
+  m_Name: Root
+  m_EditorClassIdentifier: 
+  _uniqueId: 9dcf592a-3d9a-4dfb-ae1f-118c61ef67f8
+  rect:
+    serializedVersion: 2
+    x: 49785
+    y: 50215
+    width: 100
+    height: 57
+  nodeTitle: 
+  children:
+  - {fileID: -3693094191965585997}
+  conditions: []
+  enterActions: []
+  exitActions: []
+--- !u!114 &7242808841267491063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: de18fdb8-ca7d-425c-9c81-5fa3114245d6
+  rect:
+    serializedVersion: 2
+    x: 50708
+    y: 50221
+    width: 200
+    height: 206
+  nodeTitle: 
+  children:
+  - {fileID: 1619176322380253167}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices:
+  - {fileID: -828885807683250532}
+  - {fileID: -4520027911249929783}
+  - {fileID: -7588622805926537341}
+  actor: {fileID: 11400000, guid: 5a225382fa414d441a8a301a7e72fa97, type: 2}
+  audio: {fileID: 0}
+  dialogue: This MY turf, got it? You better get the fuck up out of here.
+--- !u!114 &7508418100978985341
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb407621a43446dac370b409a9ddc29, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: 
+  text: Who are YOU?
+  children:
+  - {fileID: 6330670266204538934}
+  _uniqueId: 8fc79cd7-29a5-4d59-bcf6-5e22953e71c8
+--- !u!114 &7736720858821661458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb407621a43446dac370b409a9ddc29, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: 
+  text: Got any work for me?
+  children:
+  - {fileID: -2828311090414436780}
+  _uniqueId: 6ec2b88c-27ec-4421-9901-a0add9c083c4

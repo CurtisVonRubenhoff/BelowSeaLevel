@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6382313489750675091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8d0566afe4d5fa9596c80df966df6, type: 3}
+  m_Name: Root
+  m_EditorClassIdentifier: 
+  _uniqueId: db92df3d-b1a2-47aa-81b7-cfffcc221445
+  rect:
+    serializedVersion: 2
+    x: 50006
+    y: 50138
+    width: 100
+    height: 57
+  nodeTitle: 
+  children:
+  - {fileID: 6842624273657438834}
+  conditions: []
+  enterActions: []
+  exitActions: []
+--- !u!114 &-1072537368760667613
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb407621a43446dac370b409a9ddc29, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: 
+  text: Go Fishing
+  children: []
+  _uniqueId: 1b343464-e01f-48b1-9e3a-dd4400043448
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35851dfd8754a74b333944d50d05bbd, type: 3}
+  m_Name: MainDialog
+  m_EditorClassIdentifier: 
+  _nodes:
+  - {fileID: -6382313489750675091}
+  - {fileID: 6842624273657438834}
+  - {fileID: 2980481292871305104}
+  root: {fileID: -6382313489750675091}
+  scrollPosition: {x: 49491.5, y: 49880}
+--- !u!114 &2980481292871305104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67818104cf34e2693b49316191c2be0, type: 3}
+  m_Name: Play Graph
+  m_EditorClassIdentifier: 
+  _uniqueId: c8098d28-84b1-464e-a1ba-ceafeb5e40f3
+  rect:
+    serializedVersion: 2
+    x: 50461
+    y: 50309
+    width: 200
+    height: 58
+  nodeTitle: 
+  children: []
+  conditions: []
+  enterActions: []
+  exitActions: []
+  dialogueGraph: {fileID: 11400000, guid: 0b7be08804f870d468884a0dce19bfaf, type: 2}
+--- !u!114 &5058035014923256355
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb407621a43446dac370b409a9ddc29, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: 
+  text: Talk to stranger
+  children:
+  - {fileID: 2980481292871305104}
+  _uniqueId: 8164d24f-1a5f-4e6e-88d0-46e25fc02ff3
+--- !u!114 &6842624273657438834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 1c30e789-9978-4b4c-a735-897c438188c2
+  rect:
+    serializedVersion: 2
+    x: 50212
+    y: 50130
+    width: 200
+    height: 186
+  nodeTitle: 
+  children: []
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices:
+  - {fileID: -1072537368760667613}
+  - {fileID: 5058035014923256355}
+  actor: {fileID: 0}
+  audio: {fileID: 0}
+  dialogue: What do you want to do?
